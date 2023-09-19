@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*,html{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* header settings */
+.headerSettings{
+    
+    margin-top:80px;
+    width: auto;
+    height:150px;
+    background-color: #0046be;
+    padding-top:20px;
+}
+.navSettings{
+    
+    height:50px;
+    background-color: #082f72;
+    /* margin-top:28px; */
+}
+.siteLogo > span{
+    padding:30px;
+    color:rgb(235, 235, 105);
+    font-size: 35px;
+    /* font-family: 'Kaushan Script', cursive; */
+    font-family: 'Russo One', sans-serif;
+    
+}
+.headNav{
+    
+    /* float:left; */
+    display:inline-block;
+}
+.searchBar{
+    padding-bottom:40px;
+    padding-left:8%;
+
+}
+.searchBar input[type=text]{
+    padding:10px;
+    border: 1px solid black;
+    width:auto;
+    font-size:25px;
+}
+button{
+    font-size:25px;  
+    background-color: #3232f3; 
+    color:#FFFFFF;
+    width: auto;
+    padding:10px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: #082f72;
+    color:#f1f958;
+}
+.loginAccount{
+    margin-left: 150px;
+}
+.logSpace{
+    margin-right: 5px;
+}
+.navSettings{
+      padding: 10px;
+}
+ .navSettings > a{
+    margin-left: 20px;
+    color:#d7e51e;
+    font-size: 25px;
+    text-decoration: none;
+}
+.loginAccount > a{
+    margin-left: 40px;
+    color:#ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+/* End of header settings */
+
+/* sections settings */
+    .section1,.section2,.section3,.section4{
+        margin-top:80px;
+        /* height:500px;
+        width:auto; */
+
+    }
+/* End of section settings */
+/* div1 settings */
+.mainSettings{
+    margin-top:40px;
+}
+.section1{
+    width:100%;
+}
+.secVideo{
+    width:100%;
+    /* margin: 150px; */
+    background-size: cover;
+    /* border: 8px solid rgb(3, 3, 11); */
+    /* border-radius:50% ; */
+}
+/* div1 settings end here */
+/* offer settings - div2/section2 */
+.offerList{
+    width:20%;
+    display:inline-block;
+    margin: 28px;
+    margin-top:60px;
+    padding:20px;
+}
+.imgBkg{
+    width:100%;
+    /* height: auto; */
+
+}
+.offerList >a{
+   padding: 10px;
+   font-size: 18px;
+   color:#3232b6;
+   text-decoration: none;
+}
+.offerList >a:hover{
+    text-decoration:underline;
+    /* color:red;
+    font-size: 20px; */
+
+}
+.offerList > p{
+    padding: 10px;
+    font-size:1.2rem;
+    font-weight: 700;
+}.section2 > h3{
+    text-align: center;
+}
+/* end of offer settings */
+
+/* section3 settings */
+.section3 {
+    position: relative;
+}
+    .section3 > p{
+        position: absolute;
+        text-align: center;
+        font-size: 25px;
+        padding:25px;
+        color:#1f1f19;
+        font-family: 'Kaushan Script', cursive;
+        background-color: rgba(242, 242, 248, 0.8);
+        
+    }
+    .serviceInfo1{
+        top:280px;
+    }
+    .serviceInfo2{
+        top: 500px;
+    }
+       .serviceTitle{
+        position: absolute;
+        left:0;
+        right:0;
+        margin: auto;
+        text-shadow: 2px 2px 2px #1c1616,2px 2px 8px #f7f3f3, 2px 2px 11px #1c1616;
+
+    }
+    .eBanner{
+        position: relative;
+        background-size: cover;
+        width: 100%;
+        opacity: 0.4;
+    }
+    .titles{
+
+        text-align: center;
+        font-size: 50px;
+    }
+
+/* end of section3 settings */
+
+/* section4 settings */
+.formSettings{
+    text-align: center;
+    padding:50px;
+    background-color: rgb(207, 219, 240);
+}
+.formSettings > label{
+    font-size: 28px;
+   
+   
+}
+.formSettings > input[type=text], input[type=email]{
+    font-size: 25px;
+    width:65%;
+    padding: 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(119, 112, 112);
+    margin-bottom:25px;
+}
+
+.formSettings > textarea{
+    width:65%;
+    resize: none;
+}
+
+.subButton{
+    margin-top: 10px;
+    background-color: rgb(158, 158, 218);
+    padding:10px;
+    border-radius: 4px;
+}
+/* .btn-danger{
+    background-color:green;
+} */
+/* end of section 4 settings */
+
+/* footer settings */
+.footSettings{
+    padding:15px;
+    text-align: center;
+    position: relative;
+    /* height:200px; */
+    background-color: #e3e1ee;
+    bottom:0;
+}
+
+/* end of footer settings */
